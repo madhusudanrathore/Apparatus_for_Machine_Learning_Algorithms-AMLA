@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+			<div class="jumbotron text-center">
+				<h1>LSTM RNN Time Series Prediction</h1>
+			</div>
+			<div>
+				<ul>
+					<li>Epochs: {{ data.epochs }}</li>
+					<li>Training Root Mean Square Error: {{ data.train_score }}</li>
+					<li>Testing Root Mean Square Error: {{ data.test_score }}</li>
+					<li>RNN LSTM Look Backs: {{ data.look_back }}</li>
+				</ul>
+			</div>
+{% endblock %}

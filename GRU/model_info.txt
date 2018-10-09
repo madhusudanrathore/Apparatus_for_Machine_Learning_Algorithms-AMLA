@@ -1,0 +1,1 @@
+{"epochs": 100, "train_score": 16.074658369675685, "test_score": 133.91048725578244, "look_back": 20}

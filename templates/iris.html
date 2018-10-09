@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+			<div class="jumbotron text-center">
+				<h1>Iris Classification</h1>
+			</div>
+			<div>
+				<ul>
+					<li>Epochs: {{ data.epochs }}</li>
+					<li>Accuracy: {{ data.accuracy }}</li>
+				</ul>
+			</div>
+{% endblock %}
