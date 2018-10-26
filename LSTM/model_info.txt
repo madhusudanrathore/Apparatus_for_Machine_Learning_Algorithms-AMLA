@@ -1,1 +1,1 @@
-{"test_score": 49.41445041918425, "look_back": 20, "train_score": 18.370665114072192, "epochs": 100}
+{"train_score": 18.321419541575516, "test_score": 49.30788866731309, "epochs": 100, "look_back": 20}

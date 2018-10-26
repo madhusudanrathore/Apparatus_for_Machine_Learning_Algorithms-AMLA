@@ -1,1 +1,1 @@
-{"accuracy": 98.33333293596903, "epochs": 100}
+{"accuracy": 95.0, "epochs": 100}

@@ -35,4 +35,5 @@ def cnn():
 	return render_template('cnn.html')
 
 if __name__=='__main__':
-	app.run(debug=True)
+	# app.run(host='0.0.0.0',debug=True)
+	app.run(host="192.168.43.205",port=5010)
